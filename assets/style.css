@@ -1,0 +1,54 @@
+#header{
+    background-image: url("https://trinityproperties.com/wp-content/uploads/2013/05/header-300x62.jpg");
+    background-size: cover;
+    text-align: center;
+    background-color:#3d6488;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #f4f6f5;
+    height: 100px;
+}
+
+
+body {
+background-image: url("https://images.unsplash.com/photo-1553640141-92b68750cf3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1364&q=80");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#search-box {
+width: 2px;
+background-color:  #f5faf7;
+}
+
+.list-button{
+    background-color: #136403;
+    color: rgb(253, 250, 250);
+    font-family: bold, sans-serif;
+    border-radius: 2px; 
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+
+.left_div{
+    /* background-color: #e2d9be;  */
+    height: 100%; 
+}
+
+.card-body{
+    background-color: #3d6488;
+    color: white;
+}
+
+#search-button{
+    background-color: #007c29;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 2%; 
+    
+
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZachBach's Weather</title>
+    <script src="https://kit.fontawesome.com/4439e3b362.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header id="header" class="container-fluid  pt-3 pb-3 bg-dark text-center"><h1>Current Weather Dashboard</h1></header>
+
+    <div class="container-fluid row">
+            <div class="col-3 left_div justify-content-center pt-3" id="search-box">
+                    <div class="search_div mb-4">
+                    <h5 class="justify-content-center pt-2 pl-3">Enter city here: </h5>
+                        <form class="form-inline my-2 my-lg-0 mt-3 ml-3">
+                                <input class="form-control mr-sm-2 float-left" type="search" placeholder="Search" id= "search-input" aria-label="Search">
+                                <button id="search-button" class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <h5 class="justify-content-center pt-2 pl-3">Previously searched cities: </h5>
+                    <div class="container bg-dark my-3 col-12" id="searched-cities">
+                    </div>
+            </div>
+
+ <div class="today_weather text-success col-9 pt-3">
+                <div class="bg-dark text-success p-3">
+                        <h2 class="justify-content-center text-success" id="city-name"></h2>
+                        <div class="row">
+                            <div class="col-6">
+                                <p id="current-temp"></p>
+                                <p id="current-humidity"></p>
+                                <p id="current-windspeed"></p>
+                                <p id="current-uv"></p>
+                                <img id="icon-div" src="">
+                            </div>
+                        </div> 
+                </div>  
+
+            <div class="five-day-div bg-dark p-3 m-3 w-100">
+                    <div class="bg-dark">
+                        <h5 class="text-success">Your City's Forecast</h5>
+                    </div>
+                <div class="row justify-content-center ">
+                    <div id="day0" class="card-body bg-dark text-success mx-2 my-2">
+                        <h5 id="0date"></h5>
+                        <p id="0forecast-temp"></p>
+                        <p id="0forecast-humidity"></p>
+                        <p id="0forecast-wind"></p>
+                        <p id="0forecast-uv"></p>
+                        <img id="0forecast-icon" src="">
+                    </div>
+                    <div id="day1" class="card-body bg-dark text-success mx-2 my-2">
+                            <h5 id="1date"></h5>
+                            <p id="1forecast-temp"></p>
+                            <p id="1forecast-humidity"></p>
+                            <p id="1forecast-wind"></p>
+                            <p id="1forecast-uv"></p>
+                            <img id="1forecast-icon" src="">
+                    </div>
+                    <div id="day2" class="card-body bg-dark text-success mx-2 my-2"> 
+                            <h5 id="2date"></h5>
+                            <p id="2forecast-temp"></p>
+                            <p id="2forecast-humidity"></p>
+                            <p id="2forecast-wind"></p>
+                            <p id="2forecast-uv"></p>
+                            <img id="2forecast-icon" src="">
+                    </div>
+                    <div id="day3" class="card-body bg-dark text-success mx-2 my-2">
+                            <h5 id="3date"></h5>
+                            <p id="3forecast-temp"></p>
+                            <p id="3forecast-humidity"></p>
+                            <p id="3forecast-wind"></p>
+                            <p id="3forecast-uv"></p>
+                            <img id="3forecast-icon" src="">
+                    </div>
+                    <div id="day4" class="card-body bg-dark text-success mx-2 my-2">
+                            <h5 id="4date"></h5>
+                            <p id="4forecast-temp"></p>
+                            <p id="4forecast-humidity"></p>
+                            <p id="4forecast-wind"></p>
+                            <p id="4forecast-uv"></p>
+                            <img id="4forecast-icon" src="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
