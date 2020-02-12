@@ -113,33 +113,6 @@ function dualCalls(){
          $("#icon-div").attr({"src": "http://openweathermap.org/img/w/" + current_data.weather[0].icon + ".png",
           "height": "150px", "width":"150px"});
         })
-        //get UV Index
     }
-
-    // var uvURL = url + city + APIkey;
-    // current_weather_url = newURL + city + APIkey; 
-    // $.ajax({
-    //     url: uvURL,
-    //     method: "GET"
-    // }).then(function (uvresponse) {
-    //     var uvindex = uvresponse.value;
-    //     var bgcolor;
-    //     if (uvindex <= 3) {
-    //         bgcolor = "green";
-    //     }
-    //     else if (uvindex >= 3 || uvindex <= 6) {
-    //         bgcolor = "yellow";
-    //     }
-    //     else if (uvindex >= 6 || uvindex <= 8) {
-    //         bgcolor = "orange";
-    //     }
-    //     else {
-    //         bgcolor = "red";
-    //     }
-    //     var uvdisp = $("#current-uv").attr("class", "card-text").text("UV Index: ");
-    //     console.log(uvdisp);
-        
-    
-    // });
 
 
